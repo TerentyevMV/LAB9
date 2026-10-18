@@ -1,9 +1,6 @@
 #define _USE_MATH_DEFINES
 #define M_PI            3.14159265358979323846
 #define _CRT_SECURE_NO_DEPRECATE
-#define ROW 9
-#define COL 9
-
 
 #include <stdio.h>
 #include <locale.h>
