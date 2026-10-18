@@ -12,15 +12,15 @@
 
 int task1();
 int task2();
-int task3();
+double task3();
 
 int main() {
 
 	// Кодировка
 	setlocale(LC_ALL, ".UTF-8");
 
-	//task1();
- //   task2();
+	task1();
+    task2();
     task3();
 	return 0;
 }
@@ -190,7 +190,7 @@ int task2() {
     return 0;
 }
 
-int task3() {
+double task3() {
     double a; int b; char c;
     puts("Введите символ, из которого будет строиться фигура: ");
     scanf(" %c", &c);
@@ -217,4 +217,6 @@ int task3() {
 
         printf("\n");
     }
+
+	return 0.;
 }
